@@ -8,10 +8,18 @@ export default function NavBar() {
 		<div className='nav-bar'>
 			<Title />
 			<div className='nav-bar-links'>
-				<NavLink to='/about'>About Me</NavLink>
-				<NavLink to='/skills'>Skills</NavLink>
-				<NavLink to='/projects'>Projects</NavLink>
-				<NavLink to='/contact'>Contact</NavLink>
+				<NavLink to='/about' activeClassName='active'>
+					About Me
+				</NavLink>
+				<NavLink to='/skills' activeClassName='active'>
+					Skills
+				</NavLink>
+				<NavLink to='/projects' activeClassName='active'>
+					Projects
+				</NavLink>
+				<NavLink to='/contact' activeClassName='active'>
+					Contact
+				</NavLink>
 			</div>
 		</div>
 	);

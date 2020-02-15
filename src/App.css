@@ -39,10 +39,12 @@ a {
 	font-size: 1.5rem;
 	color: #404040;
 	text-decoration: none;
+	letter-spacing: 0.05rem;
+	transition: text-shadow 0.2s;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-shadow: 0 0 0.7px #404040, 0 0 0.7px #404040;
 }
 
 .font-weight-normal {
@@ -79,6 +81,10 @@ a:hover {
 	font-size: 1.8rem;
 }
 
+.active {
+	text-shadow: 0 0 0.7px #404040, 0 0 0.7px #404040;
+}
+
 /* Landing Page Styles */
 
 .landing-page {
@@ -94,7 +100,19 @@ a:hover {
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	width: 30rem;
 
-	border: 2px solid orange;
-	padding: 0.75rem 1rem;
+	padding: 1.5rem 3rem;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon {
+	color: #404040;
+	transition: color 0.2s;
+}
+
+.icon:hover {
+	color: #606060;
 }
