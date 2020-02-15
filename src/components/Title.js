@@ -6,10 +6,8 @@ export default function Title() {
 
 	return (
 		<div className='title' onClick={() => history.push('/')}>
-			<h1>
-				Jonathan Yung-Hsin Ho{' '}
-				<span className='font-weight-normal'>Full-Stack Web Developer</span>
-			</h1>
+			<h1 className='title-bold'>Jonathan Yung-Hsin Ho</h1>
+			<h1 className='title-normal'>Full-Stack Web Developer</h1>
 		</div>
 	);
 }

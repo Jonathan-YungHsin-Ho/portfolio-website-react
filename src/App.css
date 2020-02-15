@@ -47,8 +47,48 @@ a:hover {
 	text-shadow: 0 0 0.7px #404040, 0 0 0.7px #404040;
 }
 
-.font-weight-normal {
-	font-weight: normal;
+form {
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 1rem;
+}
+
+input {
+	margin-bottom: 1rem;
+	padding: 1rem;
+
+	border: 1px solid silver;
+	border-radius: 0.3rem;
+
+	font-family: inherit;
+	outline: none;
+}
+
+input:focus {
+	border: 1px solid #5e9ed6;
+}
+
+button {
+	width: 13rem;
+	padding: 1rem;
+	margin-top: 0.5rem;
+
+	border: none;
+	border-radius: 0.3rem;
+
+	background-color: #404040;
+	color: white;
+	transition: background-color 0.2s;
+
+	font-family: inherit;
+	text-transform: uppercase;
+
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #606060;
 }
 
 .page-container {
@@ -65,18 +105,29 @@ a:hover {
 	align-items: center;
 	padding: 0.75rem 1rem;
 
-	border: 1px solid silver;
+	border-bottom: 1px solid silver;
 }
 
 .title {
+	display: flex;
+	flex-wrap: wrap;
 	cursor: pointer;
+}
+
+.title-bold {
+	margin-right: 0.7rem;
+}
+
+.title-normal {
+	font-weight: normal;
+	margin-right: 2rem;
 }
 
 .nav-bar-links {
 	display: flex;
 	justify-content: space-between;
 	width: 30rem;
-	margin-right: 2rem;
+	margin: 0 2rem;
 
 	font-size: 1.8rem;
 }
@@ -85,11 +136,67 @@ a:hover {
 	text-shadow: 0 0 0.7px #404040, 0 0 0.7px #404040;
 }
 
+@media screen and (max-width: 1040px) {
+	.nav-bar {
+		flex-direction: column;
+	}
+
+	.title {
+		align-self: flex-start;
+	}
+
+	.nav-bar-links {
+		align-self: flex-end;
+		margin-top: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.nav-bar-links {
+		align-self: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	h1 {
+		font-size: 2.4rem;
+	}
+}
+
+@media screen and (max-width: 367px) {
+	h1 {
+		font-size: 2.3rem;
+	}
+}
+
+@media screen and (max-width: 352px) {
+	h1 {
+		font-size: 2.2rem;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	h1 {
+		font-size: 2.1rem;
+	}
+
+	h2 {
+		font-size: 1.8rem;
+	}
+}
+
+@media screen and (max-width: 327px) {
+	h1 {
+		font-size: 2rem;
+	}
+}
+
 /* Landing Page Styles */
 
 .landing-page {
 	display: flex;
-	/* justify-content: center; */
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
@@ -115,4 +222,12 @@ a:hover {
 
 .icon:hover {
 	color: #606060;
+}
+
+@media screen and (max-width: 420px) {
+	.footer {
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
 }
