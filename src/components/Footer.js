@@ -1,9 +1,18 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import { useDarkMode } from '../hooks/useDarkMode';
+
 import Resume from '../documents/resume.pdf';
 
 export default function Footer() {
+	const [darkMode, setDarkMode] = useDarkMode(false);
+
+	const toggleMode = e => {
+		e.preventDefault();
+		setDarkMode(!darkMode);
+	};
+
 	return (
 		<div className='footer'>
 			<a href={Resume} target='_blank' rel='noopener noreferrer'>
@@ -38,6 +47,21 @@ export default function Footer() {
 					size='lg'
 				/>
 			</a>
+			{darkMode ? (
+				<FontAwesomeIcon
+					icon={['far', 'sun']}
+					className='icon'
+					size='lg'
+					onClick={toggleMode}
+				/>
+			) : (
+				<FontAwesomeIcon
+					icon={['far', 'moon']}
+					className='icon'
+					size='lg'
+					onClick={toggleMode}
+				/>
+			)}
 		</div>
 	);
 }

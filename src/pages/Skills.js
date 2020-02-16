@@ -2,7 +2,7 @@ import React from 'react';
 
 import { skillsFrontEnd, skillsBackEnd } from '../content/skills';
 
-import SkillRow from '../components/SkillRow';
+import SkillCategory from '../components/SkillCategory';
 
 export default function Skills() {
 	return (
@@ -13,16 +13,16 @@ export default function Skills() {
 					<div className='skills-block'>
 						<h3>Front-End</h3>
 						<div className='skills-categories'>
-							{skillsFrontEnd.map((row, index) => (
-								<SkillRow key={index} row={row} />
+							{skillsFrontEnd.map((category, index) => (
+								<SkillCategory key={index} category={category} />
 							))}
 						</div>
 					</div>
 					<div className='skills-block'>
 						<h3>Back-End</h3>
 						<div className='skills-categories'>
-							{skillsBackEnd.map((row, index) => (
-								<SkillRow key={index} row={row} />
+							{skillsBackEnd.map((category, index) => (
+								<SkillCategory key={index} category={category} />
 							))}
 						</div>
 					</div>

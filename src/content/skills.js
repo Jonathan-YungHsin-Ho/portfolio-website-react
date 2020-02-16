@@ -42,7 +42,7 @@ export const skillsFrontEnd = [
 		category: 'API Calls',
 		skills: [
 			{ icon: '', skill: 'Axios' },
-			{ icon: '', skill: 'Fetch API' },
+			{ icon: 'js-square', skill: 'Fetch API' },
 			{ icon: '', skill: 'GraphQL' },
 		],
 	},

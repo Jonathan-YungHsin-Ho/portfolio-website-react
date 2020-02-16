@@ -43,7 +43,8 @@ a {
 	transition: text-shadow 0.2s;
 }
 
-a:hover {
+a:hover,
+.active {
 	text-shadow: 0 0 0.7px #404040, 0 0 0.7px #404040;
 }
 
@@ -136,10 +137,6 @@ button:hover {
 	margin: 0 2rem;
 
 	font-size: 1.8rem;
-}
-
-.active {
-	text-shadow: 0 0 0.7px #404040, 0 0 0.7px #404040;
 }
 
 @media screen and (max-width: 1040px) {
@@ -237,7 +234,7 @@ button:hover {
 /* Skills Page Styles */
 
 .skills-page {
-	max-width: 96%;
+	max-width: 94%;
 	margin: 0 auto;
 }
 
@@ -247,7 +244,7 @@ button:hover {
 }
 
 .skills-block {
-	margin-bottom: 1rem;
+	margin-top: 1rem;
 }
 
 .skills-categories {
@@ -256,7 +253,8 @@ button:hover {
 }
 
 .skill-category {
-	margin: 1rem 3rem 0 0;
+	margin: 0.5rem 3rem 0 0;
+	flex-shrink: 0;
 }
 
 .tech-icon {
@@ -276,7 +274,7 @@ button:hover {
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	width: 30rem;
+	width: 32rem;
 
 	padding: 1.5rem 3rem;
 
@@ -287,6 +285,7 @@ button:hover {
 .icon {
 	color: #404040;
 	transition: color 0.2s;
+	cursor: pointer;
 }
 
 .icon:hover {
@@ -299,4 +298,21 @@ button:hover {
 		right: 0;
 		margin: auto;
 	}
+}
+
+/* Dark Mode */
+
+.dark-mode {
+	background-color: #404040;
+	color: whitesmoke;
+}
+
+.dark-mode a,
+.dark-mode .icon {
+	color: whitesmoke;
+}
+
+.dark-mode a:hover,
+.dark-mode .active {
+	text-shadow: 0 0 1px whitesmoke, 0 0 1px whitesmoke;
 }
