@@ -308,6 +308,7 @@ button:hover {
 }
 
 .dark-mode a,
+.dark-mode .tech-icon,
 .dark-mode .icon {
 	color: whitesmoke;
 }
