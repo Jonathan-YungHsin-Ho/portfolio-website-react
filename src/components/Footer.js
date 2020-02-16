@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import Resume from '../documents/resume.pdf';
 
 export default function Footer() {

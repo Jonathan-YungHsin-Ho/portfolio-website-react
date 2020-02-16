@@ -4,8 +4,8 @@ export default function Landing() {
 	return (
 		<div className='page-container'>
 			<section className='landing-page'>
-				<div>PICTURE</div>
-				<div>
+				<div className='landing-image'></div>
+				<div className='landing-text'>
 					<h2>Hello, I'm Jonathan.</h2>
 					<p>
 						Full-stack web developer focused on emerging technologies and ed
