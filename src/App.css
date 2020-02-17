@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
+:root {
+	--dark-color: #101010;
+	--light-color: whitesmoke;
+	--hover-color: #606060;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -16,7 +22,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.5rem;
 
-	color: #404040;
+	color: var(--dark-color);
 }
 
 h1 {
@@ -32,12 +38,12 @@ h2 {
 }
 
 p {
-	max-width: 90ch;
+	max-width: 45ch;
 }
 
 a {
 	font-size: 1.5rem;
-	color: #404040;
+	color: var(--dark-color);
 	text-decoration: none;
 	letter-spacing: 0.05rem;
 	transition: text-shadow 0.2s;
@@ -45,7 +51,7 @@ a {
 
 a:hover,
 .active {
-	text-shadow: 0 0 0.7px #404040, 0 0 0.7px #404040;
+	text-shadow: 0 0 0.7px var(--dark-color), 0 0 0.7px var(--dark-color);
 }
 
 form {
@@ -84,8 +90,8 @@ button {
 	border: none;
 	border-radius: 0.3rem;
 
-	background-color: #404040;
-	color: white;
+	background-color: var(--dark-color);
+	color: var(--light-color);
 	transition: background-color 0.2s;
 
 	font-family: inherit;
@@ -95,7 +101,7 @@ button {
 }
 
 button:hover {
-	background-color: #606060;
+	background-color: var(--hover-color);
 }
 
 .page-container {
@@ -258,8 +264,49 @@ button:hover {
 }
 
 .tech-icon {
-	color: #404040;
+	color: var(--dark-color);
 	margin-right: 0.5rem;
+}
+
+/* Project Styles */
+.project-summary {
+	display: flex;
+}
+
+.project-fields {
+	/* width: 30rem; */
+	width: 46rem;
+	height: 20rem;
+	overflow-y: auto;
+}
+
+.project-field {
+	display: flex;
+	align-items: flex-start;
+}
+
+.project-field h3 {
+	font-size: 1.5rem;
+	margin-right: 0.5rem;
+}
+
+.thumbnails-wrapper {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+}
+
+.thumbnail {
+	width: 0.75rem;
+	height: 0.75rem;
+
+	margin-right: 0.3rem;
+
+	cursor: pointer;
+}
+
+.thumbnail:hover {
+	opacity: 0.5;
 }
 
 /* Contact Page Styles */
@@ -283,13 +330,13 @@ button:hover {
 }
 
 .icon {
-	color: #404040;
+	color: var(--dark-color);
 	transition: color 0.2s;
 	cursor: pointer;
 }
 
 .icon:hover {
-	color: #606060;
+	color: var(--hover-color);
 }
 
 @media screen and (max-width: 420px) {
@@ -303,17 +350,21 @@ button:hover {
 /* Dark Mode */
 
 .dark-mode {
-	background-color: #404040;
-	color: whitesmoke;
+	background-color: var(--dark-color);
+	color: var(--light-color);
 }
 
 .dark-mode a,
 .dark-mode .tech-icon,
 .dark-mode .icon {
-	color: whitesmoke;
+	color: var(--light-color);
+}
+
+.dark-mode .icon:hover {
+	color: var(--hover-color);
 }
 
 .dark-mode a:hover,
 .dark-mode .active {
-	text-shadow: 0 0 1px whitesmoke, 0 0 1px whitesmoke;
+	text-shadow: 0 0 1px var(--light-color), 0 0 1px var(--light-color);
 }
