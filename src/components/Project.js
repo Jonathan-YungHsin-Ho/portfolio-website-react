@@ -5,6 +5,7 @@ export default function Project({ project }) {
 		backgroundImage: `url(/images/${project.image})`,
 		cursor: project && 'pointer',
 		overflowX: !project && 'hidden',
+		boxShadow: !project && 'none',
 	};
 
 	return (

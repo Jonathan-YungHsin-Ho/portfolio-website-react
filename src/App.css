@@ -317,14 +317,28 @@ a {
 	/* border: 1px solid silver; */
 }
 
-.project-image:hover {
+/* .project-image:hover {
 	box-shadow: 0 0 1rem silver;
+} */
+
+.project-text {
+	margin-left: 2rem;
+}
+
+.project-fields {
+	width: 46rem;
+	height: 34rem;
+	overflow-y: auto;
 }
 
 @media screen and (max-width: 1320px) {
 	.project-image {
 		width: 57rem;
 		height: 38rem;
+	}
+
+	.project-fields {
+		height: 32rem;
 	}
 }
 
@@ -333,6 +347,10 @@ a {
 		width: 54rem;
 		height: 36rem;
 	}
+
+	.project-fields {
+		height: 30rem;
+	}
 }
 
 @media screen and (max-width: 1240px) {
@@ -340,12 +358,20 @@ a {
 		width: 51rem;
 		height: 34rem;
 	}
+	/* 
+	.project-fields {
+		height: 30rem;
+	} */
 }
 
 @media screen and (max-width: 1200px) {
 	.project-image {
 		width: 48rem;
 		height: 32rem;
+	}
+
+	.project-fields {
+		height: 28rem;
 	}
 }
 
@@ -354,12 +380,20 @@ a {
 		width: 45rem;
 		height: 30rem;
 	}
+
+	.project-fields {
+		height: 26rem;
+	}
 }
 
 @media screen and (max-width: 1020px) {
 	.project-image {
 		width: 42rem;
 		height: 28rem;
+	}
+
+	.project-fields {
+		height: 25rem;
 	}
 }
 
@@ -368,34 +402,43 @@ a {
 		width: 39rem;
 		height: 26rem;
 	}
+
+	.project-fields {
+		height: 23rem;
+	}
 }
+
 @media screen and (max-width: 380px) {
 	.project-image {
 		width: 36rem;
 		height: 24rem;
 	}
+
+	.project-fields {
+		height: 22rem;
+	}
 }
+
 @media screen and (max-width: 365px) {
 	.project-image {
 		width: 33rem;
 		height: 22rem;
 	}
+
+	.project-fields {
+		height: 21rem;
+	}
 }
+
 @media screen and (max-width: 325px) {
 	.project-image {
 		width: 30rem;
 		height: 20rem;
 	}
-}
 
-.project-text {
-	margin-left: 2rem;
-}
-
-.project-fields {
-	width: 46rem;
-	height: 20rem;
-	overflow-y: auto;
+	.project-fields {
+		height: 20rem;
+	}
 }
 
 .project-field {
@@ -490,9 +533,9 @@ a {
 	text-shadow: 0 0 1px var(--light-color), 0 0 1px var(--light-color);
 }
 
-.dark-mode .project-image:hover {
+/* .dark-mode .project-image:hover {
 	box-shadow: 0 0 2rem var(--light-color);
-}
+} */
 
 .dark-mode button {
 	border: 1px solid var(--light-color);
