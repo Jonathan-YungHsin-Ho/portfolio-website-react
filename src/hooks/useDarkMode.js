@@ -1,8 +1,10 @@
 import { useEffect } from 'react';
 import { useLocalStorage } from './useLocalStorage';
+import { useModeContext } from '../contexts/ModeContext';
 
 export const useDarkMode = initialValue => {
 	const [darkMode, setDarkMode] = useLocalStorage('darkModeKey', initialValue);
+	const { dispatch } = useModeContext();
 
 	useEffect(() => {
 		if (darkMode) {
@@ -10,7 +12,8 @@ export const useDarkMode = initialValue => {
 		} else {
 			document.body.classList.remove('dark-mode');
 		}
-	}, [darkMode]);
+		dispatch({ type: 'SET_MODE', payload: darkMode });
+	}, [darkMode, dispatch]);
 
 	return [darkMode, setDarkMode];
 };

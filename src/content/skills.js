@@ -13,8 +13,8 @@ export const skillsFrontEnd = [
 			{ icon: 'react', skill: 'ReactJS' },
 			{ icon: 'react', skill: 'React Hooks' },
 			{ icon: 'react', skill: 'Context API' },
-			{ icon: '', skill: 'Redux' },
-			{ icon: '', skill: 'Apollo Client' },
+			{ svg: 'redux', skill: 'Redux' },
+			{ svg: 'apollo', skill: 'Apollo Client' },
 		],
 	},
 	{
@@ -26,24 +26,21 @@ export const skillsFrontEnd = [
 	},
 	{
 		category: 'Styling Libraries',
-		skills: [
-			{ icon: '', skill: 'Styled-Components' },
-			{ icon: '', skill: 'Semantic UI' },
-		],
+		skills: [{ skill: 'Styled-Components' }, { skill: 'Semantic UI' }],
 	},
 	{
 		category: 'Testing',
 		skills: [
-			{ icon: '', skill: 'Jest' },
-			{ icon: '', skill: 'React-Testing-Library' },
+			{ svg: 'jest', skill: 'Jest' },
+			{ skill: 'React-Testing-Library' },
 		],
 	},
 	{
 		category: 'API Calls',
 		skills: [
-			{ icon: '', skill: 'Axios' },
+			{ svg: 'axios', skill: 'Axios' },
 			{ icon: 'js-square', skill: 'Fetch API' },
-			{ icon: '', skill: 'GraphQL' },
+			{ svg: 'graphql', skill: 'GraphQL' },
 		],
 	},
 	{
@@ -53,8 +50,8 @@ export const skillsFrontEnd = [
 	{
 		category: 'Deployment',
 		skills: [
-			{ icon: '', skill: 'Netlify' },
-			{ icon: '', skill: 'Zeit' },
+			{ svg: 'netlify', skill: 'Netlify' },
+			{ svg: 'zeit', skill: 'Zeit' },
 		],
 	},
 ];
@@ -63,9 +60,9 @@ export const skillsBackEnd = [
 	{
 		category: 'Fundamentals',
 		skills: [
-			{ icon: '', skill: 'REST' },
-			{ icon: '', skill: 'SQL' },
-			{ icon: '', skill: 'GraphQL' },
+			{ skill: 'REST' },
+			{ svg: 'sql', skill: 'SQL' },
+			{ svg: 'graphql', skill: 'GraphQL' },
 			{ icon: 'python', skill: 'Python' },
 		],
 	},
@@ -74,25 +71,25 @@ export const skillsBackEnd = [
 		skills: [
 			{ icon: 'node-js', skill: 'Node.js' },
 			{ icon: 'node-js', skill: 'Express' },
-			{ icon: '', skill: 'Knex' },
-			{ icon: '', skill: 'GraphQL-Yoga' },
-			{ icon: '', skill: 'Apollo Server' },
-			{ icon: '', skill: 'Prisma' },
-			{ icon: '', skill: 'Apollo Gateway' },
-			{ icon: '', skill: 'Apollo Federation' },
-			{ icon: '', skill: 'Django' },
+			{ svg: 'knex', skill: 'Knex' },
+			{ svg: 'graphql', skill: 'GraphQL-Yoga' },
+			{ svg: 'apollo', skill: 'Apollo Server' },
+			{ svg: 'prisma', skill: 'Prisma' },
+			{ svg: 'apollo', skill: 'Apollo Gateway' },
+			{ svg: 'apollo', skill: 'Apollo Federation' },
+			{ svg: 'django', skill: 'Django' },
 		],
 	},
 	{
 		category: 'Testing',
 		skills: [
-			{ icon: '', skill: 'Jest' },
-			{ icon: '', skill: 'React-Testing-Library' },
-			{ icon: '', skill: 'SuperTest' },
+			{ svg: 'jest', skill: 'Jest' },
+			{ skill: 'React-Testing-Library' },
+			{ icon: 'node-js', skill: 'SuperTest' },
 		],
 	},
 	{
 		category: 'Deployment',
-		skills: [{ icon: '', skill: 'Heroku' }],
+		skills: [{ svg: 'heroku', skill: 'Heroku' }],
 	},
 ];

@@ -75,6 +75,7 @@ export const projects = [
 	{
 		image: 'githired.png',
 		thumbnail: '#f0f8ff',
+		'thumbnail-border': '#14121f',
 		fields: {
 			Project: 'GitHired',
 			Type: 'Individual project',

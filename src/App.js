@@ -2,6 +2,9 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
 
+// Contexts
+import ModeProvider from './contexts/ModeContext';
+
 // Components
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
@@ -16,13 +19,15 @@ import Contact from './pages/Contact';
 function App() {
 	return (
 		<div className='App'>
-			<NavBar />
-			<Route exact path='/' component={Landing} />
-			{/* <Route path='/about' component={About} /> */}
-			<Route path='/skills' component={Skills} />
-			<Route path='/projects' component={Projects} />
-			<Route path='/Contact' component={Contact} />
-			<Footer />
+			<ModeProvider>
+				<NavBar />
+				<Route exact path='/' component={Landing} />
+				{/* <Route path='/about' component={About} /> */}
+				<Route path='/skills' component={Skills} />
+				<Route path='/projects' component={Projects} />
+				<Route path='/Contact' component={Contact} />
+				<Footer />
+			</ModeProvider>
 		</div>
 	);
 }

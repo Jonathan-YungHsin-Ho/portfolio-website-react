@@ -4,6 +4,7 @@ export default function Project({ project }) {
 	const imageStyle = {
 		backgroundImage: `url(/images/${project.image})`,
 		cursor: project && 'pointer',
+		overflowX: !project && 'hidden',
 	};
 
 	return (

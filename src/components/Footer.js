@@ -2,15 +2,19 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { useDarkMode } from '../hooks/useDarkMode';
+import { useModeContext } from '../contexts/ModeContext';
 
 import Resume from '../documents/resume.pdf';
 
 export default function Footer() {
 	const [darkMode, setDarkMode] = useDarkMode(false);
 
+	const { dispatch } = useModeContext();
+
 	const toggleMode = e => {
 		e.preventDefault();
 		setDarkMode(!darkMode);
+		dispatch({ type: 'SET_MODE', payload: darkMode });
 	};
 
 	return (

@@ -274,6 +274,12 @@ a {
 	flex-shrink: 0;
 }
 
+.skill-row {
+	display: flex;
+	align-items: center;
+	margin-top: 2px;
+}
+
 .tech-icon {
 	color: var(--dark-color);
 	margin-right: 0.5rem;
@@ -298,6 +304,7 @@ a {
 	margin-right: 2rem;
 	background-size: cover;
 	border-radius: 0.3rem;
+	/* border: 1px solid silver; */
 }
 
 .project-text {
@@ -386,6 +393,10 @@ a {
 .dark-mode a,
 .dark-mode .tech-icon,
 .dark-mode .icon {
+	color: var(--light-color);
+}
+
+.dark-mode .svg-icon {
 	color: var(--light-color);
 }
 
