@@ -222,18 +222,26 @@ a {
 }
 
 .landing-image {
-	width: 30rem;
-	height: 30rem;
 	margin: 0 2rem 1rem;
 
 	background-image: url(/images/picture.jpg);
 	background-size: cover;
+
+	width: 40rem;
+	height: 40rem;
 
 	border-radius: 0.3rem;
 }
 
 .landing-text {
 	padding: 0 1rem;
+}
+
+@media screen and (max-width: 900px) {
+	.landing-image {
+		width: 30rem;
+		height: 30rem;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -294,17 +302,90 @@ a {
 
 .project-summary {
 	display: flex;
+	align-items: center;
 	max-width: 100%;
 	overflow-x: auto;
+	padding: 1rem;
 }
 
 .project-image {
-	width: 30rem;
-	height: 20rem;
+	width: 60rem;
+	height: 40rem;
 	margin-right: 2rem;
 	background-size: cover;
 	border-radius: 0.3rem;
 	/* border: 1px solid silver; */
+}
+
+.project-image:hover {
+	box-shadow: 0 0 1rem silver;
+}
+
+@media screen and (max-width: 1320px) {
+	.project-image {
+		width: 57rem;
+		height: 38rem;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.project-image {
+		width: 54rem;
+		height: 36rem;
+	}
+}
+
+@media screen and (max-width: 1240px) {
+	.project-image {
+		width: 51rem;
+		height: 34rem;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.project-image {
+		width: 48rem;
+		height: 32rem;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.project-image {
+		width: 45rem;
+		height: 30rem;
+	}
+}
+
+@media screen and (max-width: 1020px) {
+	.project-image {
+		width: 42rem;
+		height: 28rem;
+	}
+}
+
+@media screen and (max-width: 416px) {
+	.project-image {
+		width: 39rem;
+		height: 26rem;
+	}
+}
+@media screen and (max-width: 380px) {
+	.project-image {
+		width: 36rem;
+		height: 24rem;
+	}
+}
+@media screen and (max-width: 365px) {
+	.project-image {
+		width: 33rem;
+		height: 22rem;
+	}
+}
+@media screen and (max-width: 325px) {
+	.project-image {
+		width: 30rem;
+		height: 20rem;
+	}
 }
 
 .project-text {
@@ -407,6 +488,10 @@ a {
 .dark-mode a:hover,
 .dark-mode .active {
 	text-shadow: 0 0 1px var(--light-color), 0 0 1px var(--light-color);
+}
+
+.dark-mode .project-image:hover {
+	box-shadow: 0 0 2rem var(--light-color);
 }
 
 .dark-mode button {
