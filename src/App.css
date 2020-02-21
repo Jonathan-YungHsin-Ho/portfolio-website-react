@@ -322,7 +322,7 @@ a {
 } */
 
 .project-text {
-	margin-left: 2rem;
+	margin-left: 2.5rem;
 }
 
 .project-fields {
@@ -444,6 +444,7 @@ a {
 .project-field {
 	display: flex;
 	align-items: flex-start;
+	margin-top: 2rem;
 }
 
 .project-field h3 {
