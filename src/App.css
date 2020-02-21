@@ -104,6 +104,7 @@ button:hover {
 	background-color: var(--hover-color);
 }
 
+div,
 input,
 textarea,
 button,
