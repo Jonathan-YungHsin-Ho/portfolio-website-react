@@ -108,6 +108,8 @@ button:hover {
 	padding-top: 1rem;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	height: 75vh;
 }
 
 /* Nav Bar Styles */
@@ -269,12 +271,31 @@ button:hover {
 }
 
 /* Project Styles */
+
+.projects-page {
+	max-width: 94%;
+	margin: 0 auto;
+}
+
 .project-summary {
 	display: flex;
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+.project-image {
+	width: 30rem;
+	height: 20rem;
+	margin-right: 2rem;
+	background-size: cover;
+	border-radius: 0.3rem;
+}
+
+.project-text {
+	margin-left: 2rem;
 }
 
 .project-fields {
-	/* width: 30rem; */
 	width: 46rem;
 	height: 20rem;
 	overflow-y: auto;
@@ -291,16 +312,15 @@ button:hover {
 }
 
 .thumbnails-wrapper {
-	margin-top: 2rem;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
+	width: 30rem;
+	margin: 4rem auto 0;
 }
 
 .thumbnail {
-	width: 0.75rem;
-	height: 0.75rem;
-
-	margin-right: 0.3rem;
+	width: 1.5rem;
+	height: 1.5rem;
 
 	cursor: pointer;
 }
@@ -367,4 +387,8 @@ button:hover {
 .dark-mode a:hover,
 .dark-mode .active {
 	text-shadow: 0 0 1px var(--light-color), 0 0 1px var(--light-color);
+}
+
+.dark-mode button {
+	border: 1px solid var(--light-color);
 }
