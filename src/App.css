@@ -104,6 +104,14 @@ button:hover {
 	background-color: var(--hover-color);
 }
 
+input,
+textarea,
+button,
+select,
+a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .page-container {
 	padding-top: 1rem;
 	display: flex;
