@@ -6,7 +6,8 @@ export const projects = [
 			Project: 'QualityHub + InterviewQ',
 			'Team Role':
 				'Full-Stack Web Developer on cross-functional team with two UX Designers and six other Full-Stack Web Developers',
-			Description: '',
+			Description:
+				'Gig economy hub app connecting job seekrs with career coaches in a variety of quality assessment areas',
 			'Front-End':
 				'ReactJS, React Router, Apollo Client, GraphQL, axios, date-fns, dotenv, jwt-decode, pusher-js, socket.io',
 			'Back-End':
@@ -23,7 +24,8 @@ export const projects = [
 			Project: 'The Legend of Lambda',
 			'Team Role':
 				'Front-End Framework Developer on cross-functional team with two Back-End Developers and one other Front-End Developer',
-			Description: '',
+			Description:
+				'Multi-User Dungeon RPG preparing players for technical interviews',
 			'Front-End':
 				'ReactJS, React Router, Context API, axios, styled-components, NES.css, pusher-js',
 		},
@@ -37,6 +39,8 @@ export const projects = [
 			Project: 'International Child Nutrition Status Tracking',
 			'Team Role':
 				'Front-End Framework Developer and Back-End Developer on cross-functional team with one Web UI Developer and two other Front-End Developers',
+			Description:
+				'App tracking and organizing data for global child malnutrition nonprofits',
 			'Front-End':
 				'ReactJS, React Router, Context API, React Hooks, axios, recharts, styled-components',
 			'Back-End':
@@ -52,6 +56,8 @@ export const projects = [
 			Project: 'Ride for Life with Safe',
 			'Team Role':
 				'Node Back-End Developer on cross-functional team with two Web UI Developers and two Front-End Developers',
+			Description:
+				'App connecting pregnant Uganda women with nearest motorcycle ambulances for health facility access',
 			'Back-End':
 				'Node.js, Express, bcryptjs, cloudinary, cors, dotenv, express-fileupload, helmet, jsonwebtoken, knex, knex-cleaner, twilio, sqlite, cross-env, jest, nodemon, supertest, pg',
 		},
@@ -66,6 +72,8 @@ export const projects = [
 			Award: 'Best Overall for Lambda Winter 2020 30-Hour Hackathon',
 			'Team Role':
 				'Front-End Developer on cross-functional team with three Back-End Developers and four other Front-End Developers',
+			Description:
+				'App platform for collaboratively creating interactive stories',
 			'Front-End':
 				'ReactJS, React Router, React Hooks, axios, d3, styled-components, dotenv, modali',
 		},
@@ -79,6 +87,8 @@ export const projects = [
 		fields: {
 			Project: 'GitHired',
 			Type: 'Individual project',
+			Description:
+				'App providing information regarding software development jobs via GitHub Jobs API',
 			'Front-End': 'ReactJS, React Redux, React Hooks, axios, thunk',
 		},
 		site: 'https://githired.now.sh/',
@@ -90,6 +100,8 @@ export const projects = [
 		fields: {
 			Project: 'Find A Brewery!',
 			Type: 'Individual project',
+			Description:
+				'App providing searchable information regarding American breweries via Open Brewery API',
 			'Front-End': 'ReactJS, React Redux, React Hooks, axios, thunk',
 		},
 		site: 'https://findabrewery.now.sh/',
