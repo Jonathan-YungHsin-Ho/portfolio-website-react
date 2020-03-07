@@ -553,12 +553,14 @@ a {
 
 .project-links {
 	margin-top: 1.5rem;
+	flex-shrink: 0;
 	display: flex;
-	flex-wrap: wrap;
+	overflow-x: auto;
 }
 
 .project-link {
 	margin-right: 2rem;
+	flex-shrink: 0;
 }
 
 .project-link a {

@@ -28,17 +28,17 @@ export const projects = [
 			},
 			{
 				icon: ['fas', 'code-branch'],
-				text: 'FE',
+				text: 'Front-End',
 				url: 'https://github.com/Lambda-School-Labs/quality-hub-core-fe',
 			},
 			{
 				icon: ['fas', 'code-branch'],
-				text: 'Core BE',
+				text: 'Core Back-End',
 				url: 'https://github.com/Lambda-School-Labs/quality-hub-core-be',
 			},
 			{
 				icon: ['fas', 'code-branch'],
-				text: 'IntQ BE',
+				text: 'InterviewQ Back-End',
 				url: 'https://github.com/Lambda-School-Labs/interview-q-be',
 			},
 			{
