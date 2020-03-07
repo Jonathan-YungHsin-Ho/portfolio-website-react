@@ -57,7 +57,7 @@ export const projects = [
 			'Team Role':
 				'Front-End Framework Developer on cross-functional team with one Django Back-End Developer/Front-End Developer and one Data Scientist',
 			Description:
-				'Multi-User Dungeon RPG where players compete to explore an island maze and hunt snitches, applying computer science principles including: Algorithms and Data Structures, Blockchain, Graph Theory, and Computer Architecture',
+				'Multi-User Dungeon RPG where players explore an island maze and compete to solve puzzles, applying computer science principles including: Algorithms and Data Structures, Blockchain, Graph Theory, and Computer Architecture',
 			'Front-End':
 				'ReactJS, React Router, Context API, axios, styled-components, dotenv',
 		},
@@ -88,7 +88,7 @@ export const projects = [
 			'Team Role':
 				'Front-End Framework Developer on cross-functional team with two Back-End Developers and one other Front-End Developer',
 			Description:
-				'Multi-User Dungeon RPG preparing players for technical interviews',
+				'Multi-User Dungeon RPG where players collect questions preparing them for technical interviews',
 			'Front-End':
 				'ReactJS, React Router, Context API, axios, styled-components, NES.css, pusher-js',
 		},
