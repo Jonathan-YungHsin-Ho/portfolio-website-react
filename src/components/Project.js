@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ProjectLink from './ProjectLink';
+
 export default function Project({ project }) {
 	const imageStyle = {
 		backgroundImage: `url(/images/${project.image})`,
@@ -23,7 +25,12 @@ export default function Project({ project }) {
 							</div>
 						))}
 				</div>
-				<div className='project-links'></div>
+				<div className='project-links'>
+					{project.links &&
+						project.links.map(link => (
+							<ProjectLink key={link.url} link={link} />
+						))}
+				</div>
 			</div>
 		</div>
 	);

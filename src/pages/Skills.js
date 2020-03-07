@@ -1,8 +1,6 @@
 import React from 'react';
-
-import { skillsFrontEnd, skillsBackEnd } from '../content/skills';
-
 import SkillCategory from '../components/SkillCategory';
+import { skillsFrontEnd, skillsBackEnd } from '../content/skills';
 
 export default function Skills() {
 	return (

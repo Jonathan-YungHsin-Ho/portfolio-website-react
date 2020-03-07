@@ -78,6 +78,7 @@ export const skillsBackEnd = [
 			{ svg: 'apollo', skill: 'Apollo Gateway' },
 			{ svg: 'apollo', skill: 'Apollo Federation' },
 			{ svg: 'django', skill: 'Django' },
+			{ svg: '', skill: 'Flask' },
 		],
 	},
 	{

@@ -7,7 +7,7 @@ export const projects = [
 			'Team Role':
 				'Full-Stack Web Developer on cross-functional team with two UX Designers and six other Full-Stack Web Developers',
 			Description:
-				'Gig economy hub app connecting job seekrs with career coaches in a variety of quality assessment areas',
+				'Gig economy hub app connecting job seekers with career coaches in a variety of quality assessment areas',
 			'Front-End':
 				'ReactJS, React Router, Apollo Client, GraphQL, axios, date-fns, dotenv, jwt-decode, pusher-js, socket.io',
 			'Back-End':
@@ -15,7 +15,70 @@ export const projects = [
 			Gateway: 'Apollo Server, Apollo Gateway, GraphQL',
 		},
 		site: 'https://explorequality.com/',
-		links: {},
+		links: [
+			{
+				icon: ['fab', 'youtube'],
+				text: 'Demo',
+				url: 'https://youtu.be/mW-hJxlnVwk?t=274',
+			},
+			{
+				icon: ['fab', 'youtube'],
+				text: 'Marketing',
+				url: 'https://youtu.be/xksru1VUZd0',
+			},
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'FE',
+				url: 'https://github.com/Lambda-School-Labs/quality-hub-core-fe',
+			},
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'Core BE',
+				url: 'https://github.com/Lambda-School-Labs/quality-hub-core-be',
+			},
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'IntQ BE',
+				url: 'https://github.com/Lambda-School-Labs/interview-q-be',
+			},
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'Gateway',
+				url: 'https://github.com/Lambda-School-Labs/quality-hub-gateway-be',
+			},
+		],
+	},
+	{
+		image: 'jambdatreasurehunt.png',
+		thumbnail: '#e0ffff',
+		'thumbnail-border': '#14121f',
+		fields: {
+			Project: 'JAMbda Treasure Hunt',
+			'Team Role':
+				'Front-End Framework Developer on cross-functional team with one Django Back-End Developer/Front-End Developer and one Data Scientist',
+			Description:
+				'Multi-User Dungeon RPG preparing players for technical interviews',
+			'Front-End':
+				'ReactJS, React Router, Context API, axios, styled-components, dotenv',
+		},
+		site: 'https://teamjam.netlify.com/',
+		links: [
+			{
+				icon: ['fab', 'youtube'],
+				text: 'Demo 1',
+				url: 'https://youtu.be/4Sdw_SOQ4HU',
+			},
+			// {
+			// 	icon: ['fab', 'youtube'],
+			// 	text: 'Demo 2',
+			// 	url: 'https://youtu.be/Y3tNF6Y1f0k?t=28',
+			// },
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'Front-End Repo',
+				url: 'https://github.com/Team-JAM/front-end/tree/development',
+			},
+		],
 	},
 	{
 		image: 'lambdalegend.png',
@@ -30,7 +93,19 @@ export const projects = [
 				'ReactJS, React Router, Context API, axios, styled-components, NES.css, pusher-js',
 		},
 		site: 'https://lambdalegend.netlify.com/',
-		links: [],
+		links: [
+			{
+				icon: ['fab', 'youtube'],
+				text: 'Demo',
+				url: 'https://youtu.be/Y3tNF6Y1f0k?t=28',
+			},
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'Front-End Repo',
+				url:
+					'https://github.com/CS25-BuildWeek-JJTBN/Front-End/tree/development/lambda-mud-client',
+			},
+		],
 	},
 	{
 		image: 'icnst.png',
@@ -47,7 +122,18 @@ export const projects = [
 				'Node.js, Express, bcryptjs, cors, dotenv, helmet, jsonwebtoken, knex, knex-cleaner, sqlite (development), nodemon (development), pg (production)',
 		},
 		site: 'https://icnst.netlify.com/',
-		links: [],
+		links: [
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'Front-End Repo',
+				url: 'https://github.com/ICNST/FE/tree/jonathan-ho',
+			},
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'Back-End Repo',
+				url: 'https://github.com/Jonathan-YungHsin-Ho/bw3-backend',
+			},
+		],
 	},
 	{
 		image: 'rideforlife.png',
@@ -62,7 +148,18 @@ export const projects = [
 				'Node.js, Express, bcryptjs, cloudinary, cors, dotenv, express-fileupload, helmet, jsonwebtoken, knex, knex-cleaner, twilio, sqlite, cross-env, jest, nodemon, supertest, pg',
 		},
 		site: 'https://rfl.netlify.com/',
-		links: [],
+		links: [
+			{
+				icon: ['fab', 'youtube'],
+				text: 'Demo',
+				url: 'https://youtu.be/GQoPMRK_eyU?t=250',
+			},
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'Back-End Repo',
+				url: 'https://github.com/RideforLife/BackEnd',
+			},
+		],
 	},
 	{
 		image: 'createadventure.png',
@@ -78,7 +175,19 @@ export const projects = [
 				'ReactJS, React Router, React Hooks, axios, d3, styled-components, dotenv, modali',
 		},
 		site: 'https://createadventure.netlify.com/',
-		links: [],
+		links: [
+			{
+				icon: ['fab', 'youtube'],
+				text: 'Marketing',
+				url: 'https://youtu.be/aXe9Fm_1oUg',
+			},
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'Front-End Repo',
+				url:
+					'https://github.com/Lambda-Hackathon-2020-Git-Adventure/Git-Adventure-Frontend',
+			},
+		],
 	},
 	{
 		image: 'githired.png',
@@ -92,7 +201,14 @@ export const projects = [
 			'Front-End': 'ReactJS, React Redux, React Hooks, axios, thunk',
 		},
 		site: 'https://githired.now.sh/',
-		links: [],
+		links: [
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'Code Repo',
+				url:
+					'https://github.com/Jonathan-YungHsin-Ho/React-Redux-App/tree/jonathan-ho/github-jobs',
+			},
+		],
 	},
 	{
 		image: 'brewery.png',
@@ -105,6 +221,13 @@ export const projects = [
 			'Front-End': 'ReactJS, React Redux, React Hooks, axios, thunk',
 		},
 		site: 'https://findabrewery.now.sh/',
-		links: [],
+		links: [
+			{
+				icon: ['fas', 'code-branch'],
+				text: 'Code Repo',
+				url:
+					'https://github.com/Jonathan-YungHsin-Ho/open-brewery-app/tree/master/open-brewery',
+			},
+		],
 	},
 ];

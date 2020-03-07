@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-
 import Project from '../components/Project';
 import Thumbnails from '../components/Thumbnails';
-
 import { projects } from '../content/projects';
 
 export default function Projects() {

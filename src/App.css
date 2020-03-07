@@ -41,7 +41,7 @@ p {
 	max-width: 45ch;
 }
 
-a {
+/* a {
 	font-size: 1.5rem;
 	color: var(--dark-color);
 	text-decoration: none;
@@ -52,7 +52,7 @@ a {
 a:hover,
 .active {
 	text-shadow: 0 0 0.7px var(--dark-color), 0 0 0.7px var(--dark-color);
-}
+} */
 
 form {
 	display: flex;
@@ -113,6 +113,14 @@ a {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+::-webkit-scrollbar {
+	width: 0.2rem;
+	height: 0.2rem;
+}
+::-webkit-scrollbar-thumb {
+	background: silver;
+}
+
 .page-container {
 	padding-top: 1rem;
 	display: flex;
@@ -160,6 +168,19 @@ a {
 	margin: 0 2rem;
 
 	font-size: 1.8rem;
+}
+
+.nav-bar-links a {
+	font-size: 1.5rem;
+	color: var(--dark-color);
+	text-decoration: none;
+	letter-spacing: 0.05rem;
+	transition: text-shadow 0.2s;
+}
+
+.nav-bar-links a:hover,
+.active {
+	text-shadow: 0 0 0.7px var(--dark-color), 0 0 0.7px var(--dark-color);
 }
 
 @media screen and (max-width: 1040px) {
@@ -309,9 +330,7 @@ a {
 .project-summary {
 	display: flex;
 	align-items: center;
-	max-width: 100%;
 	overflow-x: auto;
-	padding: 1rem;
 }
 
 .project-image {
@@ -328,121 +347,95 @@ a {
 }
 
 .project-text {
-	margin-left: 2.5rem;
+	flex-shrink: 0;
+	margin-left: 2rem;
+	height: 40rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .project-fields {
-	width: 46rem;
-	height: 34rem;
+	max-width: 90ch;
 	overflow-y: auto;
 }
 
 @media screen and (max-width: 1320px) {
-	.project-image {
+	.project-image,
+	.project-text {
 		width: 57rem;
 		height: 38rem;
-	}
-
-	.project-fields {
-		height: 32rem;
 	}
 }
 
 @media screen and (max-width: 1280px) {
-	.project-image {
+	.project-image,
+	.project-text {
 		width: 54rem;
 		height: 36rem;
-	}
-
-	.project-fields {
-		height: 30rem;
 	}
 }
 
 @media screen and (max-width: 1240px) {
-	.project-image {
+	.project-image,
+	.project-text {
 		width: 51rem;
 		height: 34rem;
 	}
-	/* 
-	.project-fields {
-		height: 30rem;
-	} */
 }
 
 @media screen and (max-width: 1200px) {
-	.project-image {
+	.project-image,
+	.project-text {
 		width: 48rem;
 		height: 32rem;
-	}
-
-	.project-fields {
-		height: 28rem;
 	}
 }
 
 @media screen and (max-width: 1050px) {
-	.project-image {
+	.project-image,
+	.project-text {
 		width: 45rem;
 		height: 30rem;
-	}
-
-	.project-fields {
-		height: 26rem;
 	}
 }
 
 @media screen and (max-width: 1020px) {
-	.project-image {
+	.project-image,
+	.project-text {
 		width: 42rem;
 		height: 28rem;
 	}
-
-	.project-fields {
-		height: 25rem;
-	}
 }
 
-@media screen and (max-width: 416px) {
-	.project-image {
+@media screen and (max-width: 410px) {
+	.project-image,
+	.project-text {
 		width: 39rem;
 		height: 26rem;
-	}
-
-	.project-fields {
-		height: 23rem;
 	}
 }
 
 @media screen and (max-width: 380px) {
-	.project-image {
+	.project-image,
+	.project-text {
 		width: 36rem;
 		height: 24rem;
 	}
-
-	.project-fields {
-		height: 22rem;
-	}
 }
 
-@media screen and (max-width: 365px) {
-	.project-image {
+@media screen and (max-width: 350px) {
+	.project-image,
+	.project-text {
 		width: 33rem;
 		height: 22rem;
 	}
-
-	.project-fields {
-		height: 21rem;
-	}
 }
 
-@media screen and (max-width: 325px) {
-	.project-image {
+@media screen and (max-width: 320px) {
+	.project-image,
+	.project-text {
 		width: 30rem;
-		height: 20rem;
-	}
-
-	.project-fields {
 		height: 20rem;
 	}
 }
@@ -450,7 +443,7 @@ a {
 .project-field {
 	display: flex;
 	align-items: flex-start;
-	margin-top: 2rem;
+	margin-top: 1rem;
 }
 
 .project-field:first-of-type {
@@ -460,6 +453,21 @@ a {
 .project-field h3 {
 	font-size: 1.5rem;
 	margin-right: 0.5rem;
+}
+
+.project-links {
+	margin-top: 1.5rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.project-link {
+	margin-right: 2rem;
+}
+
+.project-link a {
+	color: inherit;
+	text-decoration: none;
 }
 
 .thumbnails-wrapper {
