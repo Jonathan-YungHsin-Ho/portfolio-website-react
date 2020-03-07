@@ -266,12 +266,11 @@ a {
 	padding: 0 1rem;
 }
 
-/* @media screen and (max-width: 900px) {
-	.landing-image {
+@media screen and (max-width: 550px) {
+	.landing-text {
 		width: 30rem;
-		height: 30rem;
 	}
-} */
+}
 
 @media screen and (max-width: 800px) {
 	.landing-image {
