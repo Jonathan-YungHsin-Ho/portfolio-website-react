@@ -81,7 +81,7 @@ export const projects = [
 		],
 	},
 	{
-		image: 'lambdalegend.png',
+		image: 'lambdalegend2.png',
 		thumbnail: '#bb1333',
 		fields: {
 			Project: 'The Legend of Lambda',
