@@ -116,6 +116,7 @@ a {
 ::-webkit-scrollbar {
 	width: 0.2rem;
 	height: 0.2rem;
+	display: none;
 }
 ::-webkit-scrollbar-thumb {
 	background: silver;
