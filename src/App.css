@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 :root {
-	--dark-color: #101010;
-	--light-color: whitesmoke;
+	--dark-color: #121212;
+	--light-color: rgba(255, 255, 255, 0.87);
+	/* --light-color: whitesmoke; */
+	/* --hover-color: rgba(255, 255, 255, 0.6); */
 	--hover-color: #606060;
 }
 
@@ -566,6 +568,11 @@ a {
 .project-link a {
 	color: inherit;
 	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.project-link:hover {
+	color: var(--hover-color);
 }
 
 .thumbnails-wrapper {
@@ -634,12 +641,17 @@ a {
 
 .dark-mode a,
 .dark-mode .tech-icon,
+.dark-mode .svg-icon,
 .dark-mode .icon {
 	color: var(--light-color);
 }
-
+/* 
 .dark-mode .svg-icon {
 	color: var(--light-color);
+} */
+
+.dark-mode .svg-icon:hover {
+	color: var(--hover-color);
 }
 
 .dark-mode .icon:hover {
@@ -651,9 +663,11 @@ a {
 	text-shadow: 0 0 1px var(--light-color), 0 0 1px var(--light-color);
 }
 
-/* .dark-mode .project-image:hover {
-	box-shadow: 0 0 2rem var(--light-color);
-} */
+.dark-mode .project-link a:hover,
+.dark-mode .link-icon:hover {
+	text-shadow: none;
+	color: var(--hover-color);
+}
 
 .dark-mode button {
 	border: 1px solid var(--light-color);
