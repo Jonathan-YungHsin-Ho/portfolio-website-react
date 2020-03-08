@@ -8,12 +8,13 @@ export default function About() {
 				<div className='about-text'>
 					{/* <h2>About Me</h2> */}
 					<p>
-						After over a decade teaching high school students in both public and
-						independent school settings, I decided to embrace a new challenge
-						and expand my skills in a different direction. I joined the field of
-						computer programming, particularly web development, because I
-						thoroughly enjoy flexing the logical reasoning and problem-solving
-						muscles required to bring a coding project to completion.
+						After over a decade working with students of all ages in both public
+						and independent school settings, I decided to embrace a new
+						challenge and expand my skills in a different direction. I joined
+						the field of computer programming, particularly web development,
+						because I thoroughly enjoy flexing the logical reasoning and
+						problem-solving muscles required to bring a coding project to
+						completion.
 					</p>
 					<br />
 					<p>

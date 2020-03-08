@@ -21,7 +21,7 @@ export default function Contact() {
 				<h2>Get In Touch</h2>
 				<p>
 					Feel free to reach out if you'd like to discuss collaboration or other
-					opportunities. I'm currently available for hire.
+					opportunities.
 				</p>
 				<form>
 					<input

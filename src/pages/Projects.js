@@ -8,7 +8,7 @@ export default function Projects() {
 
 	const handleSelect = name =>
 		setProject(
-			projects.filter(project => project.fields['Project'] === name)[0],
+			projects.filter(project => project.fields['Product'] === name)[0],
 		);
 
 	return (

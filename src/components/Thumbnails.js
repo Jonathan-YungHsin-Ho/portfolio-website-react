@@ -12,8 +12,8 @@ export default function Thumbnails({ projects, handleSelect }) {
 							project['thumbnail-border'] &&
 							`2px solid ${project['thumbnail-border']}`,
 					}}
-					key={project.fields['Project']}
-					onClick={() => handleSelect(project.fields['Project'])}></div>
+					key={project.fields['Product']}
+					onClick={() => handleSelect(project.fields['Product'])}></div>
 			))}
 		</div>
 	);

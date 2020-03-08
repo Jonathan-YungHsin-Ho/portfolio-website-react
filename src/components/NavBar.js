@@ -15,7 +15,7 @@ export default function NavBar() {
 					Skills
 				</NavLink>
 				<NavLink to='/projects' activeClassName='active'>
-					Projects
+					Products
 				</NavLink>
 				<NavLink to='/contact' activeClassName='active'>
 					Contact

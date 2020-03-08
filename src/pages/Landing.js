@@ -16,8 +16,8 @@ export default function Landing() {
 						education.
 					</p>
 					<p>
-						Proven leader with the skills needed to succeed in a diverse team
-						environment.
+						Proven leader with the skills needed to succeed in diverse team
+						environments.
 					</p>
 				</div>
 			</section>

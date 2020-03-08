@@ -3,7 +3,7 @@ export const projects = [
 		image: 'qualityhub.png',
 		thumbnail: '#096dd9',
 		fields: {
-			Project: 'QualityHub + InterviewQ',
+			Product: 'QualityHub + InterviewQ',
 			'Team Role':
 				'Full-Stack Web Developer on cross-functional team with two UX Designers and six other Full-Stack Web Developers',
 			Description:
@@ -53,7 +53,7 @@ export const projects = [
 		thumbnail: '#e0ffff',
 		'thumbnail-border': '#14121f',
 		fields: {
-			Project: 'JAMbda Treasure Hunt',
+			Product: 'JAMbda Treasure Hunt',
 			'Team Role':
 				'Front-End Framework Developer on cross-functional team with one Django Back-End Developer/Front-End Developer and one Data Scientist',
 			Description:
@@ -84,7 +84,7 @@ export const projects = [
 		image: 'lambdalegend2.png',
 		thumbnail: '#bb1333',
 		fields: {
-			Project: 'The Legend of Lambda',
+			Product: 'The Legend of Lambda',
 			'Team Role':
 				'Front-End Framework Developer on cross-functional team with two Back-End Developers and one other Front-End Developer',
 			Description:
@@ -111,7 +111,7 @@ export const projects = [
 		image: 'icnst.png',
 		thumbnail: '#8ac64b',
 		fields: {
-			Project: 'International Child Nutrition Status Tracking',
+			Product: 'International Child Nutrition Status Tracking',
 			'Team Role':
 				'Front-End Framework Developer and Back-End Developer on cross-functional team with one Web UI Developer and two other Front-End Developers',
 			Description:
@@ -139,7 +139,7 @@ export const projects = [
 		image: 'rideforlife.png',
 		thumbnail: '#536d3e',
 		fields: {
-			Project: 'Ride for Life with Safe',
+			Product: 'Ride for Life with Safe',
 			'Team Role':
 				'Node Back-End Developer on cross-functional team with two Web UI Developers and two Front-End Developers',
 			Description:
@@ -165,7 +165,7 @@ export const projects = [
 		image: 'createadventure.png',
 		thumbnail: '#ff0000',
 		fields: {
-			Project: 'Create Your Own Adventure',
+			Product: 'Create Your Own Adventure',
 			Award: 'Best Overall for Lambda Winter 2020 30-Hour Hackathon',
 			'Team Role':
 				'Front-End Developer on cross-functional team with three Back-End Developers and four other Front-End Developers',
@@ -194,7 +194,7 @@ export const projects = [
 		thumbnail: '#f0f8ff',
 		'thumbnail-border': '#14121f',
 		fields: {
-			Project: 'GitHired',
+			Product: 'GitHired',
 			Type: 'Individual project',
 			Description:
 				'App providing information regarding software development jobs via GitHub Jobs API',
@@ -214,7 +214,7 @@ export const projects = [
 		image: 'brewery.png',
 		thumbnail: '#ffb900',
 		fields: {
-			Project: 'Find A Brewery!',
+			Product: 'Find A Brewery!',
 			Type: 'Individual project',
 			Description:
 				'App providing searchable information regarding American breweries via Open Brewery API',
