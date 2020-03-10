@@ -140,11 +140,17 @@ a {
 	overflow: auto;
 }
 
+@media screen and (max-width: 425px) {
+	.page-container {
+		padding-top: 2rem;
+		height: 75vh;
+	}
+}
+
 @media screen and (max-width: 380px) {
 	.page-container {
 		justify-content: flex-start;
-		padding-top: 2rem;
-		height: 75vh;
+		/* padding-top: 2rem; */
 	}
 }
 /* 
