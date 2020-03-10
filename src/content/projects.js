@@ -22,11 +22,11 @@ export const projects = [
 			'Employed PostgresQL database using Prisma ORM to store and manage data',
 		],
 		stack: {
-			'Front-End':
+			'Front-End Stack':
 				'ReactJS, React Router, Apollo Client, GraphQL, axios, date-fns, dotenv, jwt-decode, pusher-js, socket.io',
-			'Back-End':
+			'Back-End Stack':
 				'Node.js, Express, graphql-yoga, Prisma, Apollo Server, Apollo Federation, bcryptjs, dotenv, jsonwebtoken, Stripe, jest, supertest',
-			Gateway: 'Apollo Server, Apollo Gateway, GraphQL',
+			'Gateway Stack': 'Apollo Server, Apollo Gateway, GraphQL',
 		},
 		site: 'https://explorequality.com/',
 		links: [
@@ -68,7 +68,7 @@ export const projects = [
 			'Composed custom hooks to access back-end data and game server API endpoints reinforcing DRY code principle',
 		],
 		stack: {
-			'Front-End':
+			'Front-End Stack':
 				'ReactJS, React Router, Context API, axios, styled-components, dotenv',
 		},
 		site: 'https://teamjam.netlify.com/',
@@ -112,7 +112,7 @@ export const projects = [
 			'Designed project for mobile responsiveness',
 		],
 		stack: {
-			'Front-End':
+			'Front-End Stack':
 				'ReactJS, React Router, Context API, axios, styled-components, NES.css, pusher-js',
 		},
 		site: 'https://lambdalegend.netlify.com/',
@@ -142,13 +142,13 @@ export const projects = [
 				'4-person cross-functional team with one Web UI Developer and two other Front-End Developers',
 		},
 		stack: {
-			'Front-End':
+			'Front-End Stack':
 				'ReactJS, React Router, Context API, React Hooks, axios, recharts, styled-components',
-			'Back-End':
+			'Back-End Stack':
 				'Node.js, Express, bcryptjs, cors, dotenv, helmet, jsonwebtoken, knex, knex-cleaner, sqlite (development), nodemon (development), pg (Production)',
 		},
 		responsibilities: [
-			'Coordinated Web UI Developer and Front-End Developers to deliver functioning React web app',
+			'Coordinated front-end team of Web UI Developer and Front-End Developers',
 			'Implemented Context API to centralize state management',
 			'Built a Web API with functional endpoints to manage data for front-end application',
 			'Employed REST architectural pattern for back-end API and provided data persistence',
@@ -187,7 +187,7 @@ export const projects = [
 			'Implemented automated end-to-end tests using Jest and Supertest',
 		],
 		stack: {
-			'Back-End':
+			'Back-End Stack':
 				'Node.js, Express, bcryptjs, cloudinary, cors, dotenv, express-fileupload, helmet, jsonwebtoken, knex, knex-cleaner, twilio, sqlite, cross-env, jest, nodemon, supertest, pg',
 		},
 		site: 'https://rfl.netlify.com/',
@@ -217,12 +217,12 @@ export const projects = [
 			Team:
 				'8-person cross-functional team with three Back-End Developers and four other Front-End Developers',
 		},
-		responsibilites: [
+		responsibilities: [
 			'Designed and built front-end team page to resemble classic book covers',
 			'Designed and built story components to resemble book pages',
 		],
 		stack: {
-			'Front-End':
+			'Front-End Stack':
 				'ReactJS, React Router, React Hooks, axios, d3, styled-components, dotenv, modali',
 		},
 		site: 'https://createadventure.netlify.com/',
