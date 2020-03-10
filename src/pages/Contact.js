@@ -8,6 +8,7 @@ export default function Contact() {
 	});
 
 	const [feedback, setFeedback] = useState('');
+	const [error, setError] = useState('');
 
 	const handleChange = e =>
 		setMessage({ ...message, [e.target.name]: e.target.value });
@@ -34,7 +35,7 @@ export default function Contact() {
 			})
 			.catch(err => {
 				console.log('Failed to send message. Error: ', err);
-				setFeedback('Sorry, message failed to send');
+				setError('Sorry, message failed to send');
 			});
 	};
 
@@ -84,7 +85,10 @@ export default function Contact() {
 					/>
 					<div className='contact-button-row'>
 						<button onClick={handleSubmit}>Send Message</button>
-						<div className='message-feedback'>{feedback}</div>
+						<div className='message-feedback'>
+							<span style={{ color: 'green' }}>{feedback}</span>
+							<span style={{ color: 'red' }}>{error}</span>
+						</div>
 					</div>
 				</form>
 			</section>
