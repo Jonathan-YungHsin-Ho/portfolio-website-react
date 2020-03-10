@@ -23,7 +23,7 @@ export const projects = [
 		],
 		stack: {
 			'Front-End Stack':
-				'ReactJS, React Router, Apollo Client, GraphQL, axios, date-fns, dotenv, jwt-decode, pusher-js, socket.io',
+				'ReactJS, React Router, Apollo Client, GraphQL, axios, date-fns, jwt-decode, pusher-js, socket.io',
 			'Back-End Stack':
 				'Node.js, Express, graphql-yoga, Prisma, Apollo Server, Apollo Federation, bcryptjs, dotenv, jsonwebtoken, Stripe, jest, supertest',
 			'Gateway Stack': 'Apollo Server, Apollo Gateway, GraphQL',
@@ -69,7 +69,7 @@ export const projects = [
 		],
 		stack: {
 			'Front-End Stack':
-				'ReactJS, React Router, Context API, axios, styled-components, dotenv',
+				'ReactJS, React Router, Context API, axios, styled-components',
 		},
 		site: 'https://teamjam.netlify.com/',
 		links: [
@@ -223,7 +223,7 @@ export const projects = [
 		],
 		stack: {
 			'Front-End Stack':
-				'ReactJS, React Router, React Hooks, axios, d3, styled-components, dotenv, modali',
+				'ReactJS, React Router, React Hooks, axios, d3, styled-components, modali',
 		},
 		site: 'https://createadventure.netlify.com/',
 		links: [
