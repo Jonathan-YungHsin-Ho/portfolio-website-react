@@ -138,7 +138,6 @@ a {
 	align-items: center;
 	height: 75vh;
 	overflow: auto;
-	border: 1px solid green;
 }
 
 @media screen and (max-width: 380px) {
@@ -148,12 +147,12 @@ a {
 		/* height: 78vh; */
 	}
 }
-
+/* 
 @media screen and (max-width: 330px) {
 	.page-container {
 		height: 75vh;
 	}
-}
+} */
 
 /* Nav Bar Styles */
 
