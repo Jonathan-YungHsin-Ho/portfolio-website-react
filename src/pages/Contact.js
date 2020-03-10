@@ -30,7 +30,7 @@ export default function Contact() {
 			)
 			.then(res => {
 				// console.log(res);
-				setFeedback('Message sent!');
+				setFeedback('Your message was successfully sent!');
 				setMessage({ name: '', email: '', message: '' });
 			})
 			.catch(err => {
@@ -41,7 +41,7 @@ export default function Contact() {
 
 	const handleSubmit = e => {
 		e.preventDefault();
-		console.log(message);
+		// console.log(message);
 
 		sendFeedback(
 			process.env.REACT_APP_EMAILJS_TEMPLATEID,
