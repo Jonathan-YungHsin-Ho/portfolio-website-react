@@ -28,10 +28,9 @@ export default function About() {
 			<div className='about-text'>
 				<h2>Outside of Coding</h2>
 				<p>
-					I enjoy hiking, wandering a city, and watching South Korean cinema. I
-					send hand-drawn postcards when I travel, and I make hand-bound
-					journals. I'm currently working on a book about my experiences in
-					education.
+					My interests in making things extend past the computer screen; I send
+					hand-drawn postcards when I travel, and I make hand-bound journals.
+					I'm currently working on a book about my experiences in education.
 				</p>
 			</div>
 			{/* <div>
