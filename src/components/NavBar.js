@@ -8,14 +8,14 @@ export default function NavBar() {
 		<div className='nav-bar'>
 			<Title />
 			<div className='nav-bar-links'>
-				<NavLink to='/about' activeClassName='active'>
+				{/* <NavLink to='/about' activeClassName='active'>
 					About Me
+				</NavLink> */}
+				<NavLink to='/projects' activeClassName='active'>
+					Projects
 				</NavLink>
 				<NavLink to='/skills' activeClassName='active'>
 					Skills
-				</NavLink>
-				<NavLink to='/projects' activeClassName='active'>
-					Products
 				</NavLink>
 				<NavLink to='/contact' activeClassName='active'>
 					Contact

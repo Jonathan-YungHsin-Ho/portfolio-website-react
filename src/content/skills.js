@@ -29,13 +29,6 @@ export const skillsFrontEnd = [
 		skills: [{ skill: 'Styled-Components' }, { skill: 'Semantic UI' }],
 	},
 	{
-		category: 'Testing',
-		skills: [
-			{ svg: 'jest', skill: 'Jest' },
-			{ skill: 'React-Testing-Library' },
-		],
-	},
-	{
 		category: 'API Calls',
 		skills: [
 			{ svg: 'axios', skill: 'Axios' },
@@ -52,6 +45,13 @@ export const skillsFrontEnd = [
 		skills: [
 			{ svg: 'netlify', skill: 'Netlify' },
 			{ svg: 'zeit', skill: 'Zeit' },
+		],
+	},
+	{
+		category: 'Testing',
+		skills: [
+			{ svg: 'jest', skill: 'Jest' },
+			{ skill: 'React-Testing-Library' },
 		],
 	},
 ];

@@ -2,10 +2,11 @@ export const projects = [
 	{
 		image: 'qualityhub.png',
 		thumbnail: '#096dd9',
+		iconColor: 'white',
 		fields: {
-			Product: 'QualityHub + InterviewQ',
+			Project: 'QualityHub + InterviewQ',
 			'Team Role':
-				'Full-Stack Web Developer on cross-functional team with two UX Designers and six other Full-Stack Web Developers',
+				'Full-Stack Software Developer on 9-person cross-functional team with two UX Designers and six other Full-Stack Developers',
 			Description:
 				'Gig economy hub app connecting job seekers with career coaches in a variety of quality assessment areas',
 			'Front-End':
@@ -27,24 +28,9 @@ export const projects = [
 				url: 'https://youtu.be/xksru1VUZd0',
 			},
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Front-End',
-				url: 'https://github.com/Lambda-School-Labs/quality-hub-core-fe',
-			},
-			{
-				icon: ['fas', 'code-branch'],
-				text: 'Core Back-End',
-				url: 'https://github.com/Lambda-School-Labs/quality-hub-core-be',
-			},
-			{
-				icon: ['fas', 'code-branch'],
-				text: 'InterviewQ Back-End',
-				url: 'https://github.com/Lambda-School-Labs/interview-q-be',
-			},
-			{
-				icon: ['fas', 'code-branch'],
-				text: 'Gateway',
-				url: 'https://github.com/Lambda-School-Labs/quality-hub-gateway-be',
+				icon: ['fab', 'github'],
+				text: 'Code',
+				url: 'https://github.com/TheCovey',
 			},
 		],
 	},
@@ -52,10 +38,11 @@ export const projects = [
 		image: 'jambdatreasurehunt.png',
 		thumbnail: '#e0ffff',
 		'thumbnail-border': '#14121f',
+		iconColor: '#121212',
 		fields: {
-			Product: 'JAMbda Treasure Hunt',
+			Project: 'JAMbda Treasure Hunt',
 			'Team Role':
-				'Front-End Framework Developer on cross-functional team with one Django Back-End Developer/Front-End Developer and one Data Scientist',
+				'Front-End Framework Developer on 3-person cross-functional team with one Django Back-End Developer/Front-End Developer and one Data Scientist',
 			Description:
 				'Multi-User Dungeon RPG where players explore an island maze and compete to solve puzzles, applying computer science principles including: Algorithms and Data Structures, Blockchain, Graph Theory, and Computer Architecture',
 			'Front-End':
@@ -74,19 +61,20 @@ export const projects = [
 			// 	url: 'https://youtu.be/Y3tNF6Y1f0k?t=28',
 			// },
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Front-End Repo',
-				url: 'https://github.com/Team-JAM/front-end/tree/development',
+				icon: ['fab', 'github'],
+				text: 'Code',
+				url: 'https://github.com/Team-JAM/',
 			},
 		],
 	},
 	{
 		image: 'lambdalegend2.png',
 		thumbnail: '#bb1333',
+		iconColor: 'white',
 		fields: {
-			Product: 'The Legend of Lambda',
+			Project: 'The Legend of Lambda',
 			'Team Role':
-				'Front-End Framework Developer on cross-functional team with two Back-End Developers and one other Front-End Developer',
+				'Front-End Framework Developer on 4-person cross-functional team with two Back-End Developers and one other Front-End Developer',
 			Description:
 				'Multi-User Dungeon RPG where players collect questions preparing them for technical interviews',
 			'Front-End':
@@ -100,37 +88,37 @@ export const projects = [
 				url: 'https://youtu.be/Y3tNF6Y1f0k?t=28',
 			},
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Front-End Repo',
-				url:
-					'https://github.com/CS25-BuildWeek-JJTBN/Front-End/tree/development/lambda-mud-client',
+				icon: ['fab', 'github'],
+				text: 'Code',
+				url: 'https://github.com/CS25-BuildWeek-JJTBN/',
 			},
 		],
 	},
 	{
 		image: 'icnst.png',
 		thumbnail: '#8ac64b',
+		iconColor: '#121212',
 		fields: {
-			Product: 'International Child Nutrition Status Tracking',
+			Project: 'International Child Nutrition Status Tracking',
 			'Team Role':
-				'Front-End Framework Developer and Back-End Developer on cross-functional team with one Web UI Developer and two other Front-End Developers',
+				'Front-End Framework Developer and Back-End Developer on 4-person cross-functional team with one Web UI Developer and two other Front-End Developers',
 			Description:
 				'App tracking and organizing data for global child malnutrition nonprofits',
 			'Front-End':
 				'ReactJS, React Router, Context API, React Hooks, axios, recharts, styled-components',
 			'Back-End':
-				'Node.js, Express, bcryptjs, cors, dotenv, helmet, jsonwebtoken, knex, knex-cleaner, sqlite (development), nodemon (development), pg (production)',
+				'Node.js, Express, bcryptjs, cors, dotenv, helmet, jsonwebtoken, knex, knex-cleaner, sqlite (development), nodemon (development), pg (Production)',
 		},
 		site: 'https://icnst.netlify.com/',
 		links: [
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Front-End Repo',
+				icon: ['fab', 'github'],
+				text: 'Front-End Code',
 				url: 'https://github.com/ICNST/FE/tree/jonathan-ho',
 			},
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Back-End Repo',
+				icon: ['fab', 'github'],
+				text: 'Back-End Code',
 				url: 'https://github.com/Jonathan-YungHsin-Ho/bw3-backend',
 			},
 		],
@@ -138,10 +126,11 @@ export const projects = [
 	{
 		image: 'rideforlife.png',
 		thumbnail: '#536d3e',
+		iconColor: 'white',
 		fields: {
-			Product: 'Ride for Life with Safe',
+			Project: 'Ride for Life with Safe',
 			'Team Role':
-				'Node Back-End Developer on cross-functional team with two Web UI Developers and two Front-End Developers',
+				'Node Back-End Developer on 5-person cross-functional team with two Web UI Developers and two Front-End Developers',
 			Description:
 				'App connecting pregnant Uganda women with nearest motorcycle ambulances for health facility access',
 			'Back-End':
@@ -155,20 +144,21 @@ export const projects = [
 				url: 'https://youtu.be/GQoPMRK_eyU?t=250',
 			},
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Back-End Repo',
-				url: 'https://github.com/RideforLife/BackEnd',
+				icon: ['fab', 'github'],
+				text: 'Code',
+				url: 'https://github.com/RideforLife/',
 			},
 		],
 	},
 	{
 		image: 'createadventure.png',
 		thumbnail: '#ff0000',
+		iconColor: '#121212',
 		fields: {
-			Product: 'Create Your Own Adventure',
+			Project: 'Create Your Own Adventure',
 			Award: 'Best Overall for Lambda Winter 2020 30-Hour Hackathon',
 			'Team Role':
-				'Front-End Developer on cross-functional team with three Back-End Developers and four other Front-End Developers',
+				'Front-End Developer on 8-person cross-functional team with three Back-End Developers and four other Front-End Developers',
 			Description:
 				'App platform for collaboratively creating interactive stories',
 			'Front-End':
@@ -182,10 +172,9 @@ export const projects = [
 				url: 'https://youtu.be/aXe9Fm_1oUg',
 			},
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Front-End Repo',
-				url:
-					'https://github.com/Lambda-Hackathon-2020-Git-Adventure/Git-Adventure-Frontend',
+				icon: ['fab', 'github'],
+				text: 'Code',
+				url: 'https://github.com/Lambda-Hackathon-2020-Git-Adventure/',
 			},
 		],
 	},
@@ -193,9 +182,10 @@ export const projects = [
 		image: 'githired.png',
 		thumbnail: '#f0f8ff',
 		'thumbnail-border': '#14121f',
+		iconColor: '#121212',
 		fields: {
-			Product: 'GitHired',
-			Type: 'Individual project',
+			Project: 'GitHired',
+			Type: 'Personal project',
 			Description:
 				'App providing information regarding software development jobs via GitHub Jobs API',
 			'Front-End': 'ReactJS, React Redux, React Hooks, axios, thunk',
@@ -203,8 +193,8 @@ export const projects = [
 		site: 'https://githired.now.sh/',
 		links: [
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Code Repo',
+				icon: ['fab', 'github'],
+				text: 'Code',
 				url:
 					'https://github.com/Jonathan-YungHsin-Ho/React-Redux-App/tree/jonathan-ho/github-jobs',
 			},
@@ -213,9 +203,10 @@ export const projects = [
 	{
 		image: 'brewery.png',
 		thumbnail: '#ffb900',
+		iconColor: '#121212',
 		fields: {
-			Product: 'Find A Brewery!',
-			Type: 'Individual project',
+			Project: 'Find A Brewery!',
+			Type: 'Personal project',
 			Description:
 				'App providing searchable information regarding American breweries via Open Brewery API',
 			'Front-End': 'ReactJS, React Redux, React Hooks, axios, thunk',
@@ -223,8 +214,8 @@ export const projects = [
 		site: 'https://findabrewery.now.sh/',
 		links: [
 			{
-				icon: ['fas', 'code-branch'],
-				text: 'Code Repo',
+				icon: ['fab', 'github'],
+				text: 'Code',
 				url:
 					'https://github.com/Jonathan-YungHsin-Ho/open-brewery-app/tree/master/open-brewery',
 			},

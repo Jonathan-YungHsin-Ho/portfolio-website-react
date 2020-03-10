@@ -4,11 +4,15 @@ import Thumbnails from '../components/Thumbnails';
 import { projects } from '../content/projects';
 
 export default function Projects() {
-	const [project, setProject] = useState('');
+	const [project, setProject] = useState(
+		projects.find(
+			project => project.fields['Project'] === 'QualityHub + InterviewQ',
+		),
+	);
 
 	const handleSelect = name =>
 		setProject(
-			projects.filter(project => project.fields['Product'] === name)[0],
+			projects.filter(project => project.fields['Project'] === name)[0],
 		);
 
 	return (
