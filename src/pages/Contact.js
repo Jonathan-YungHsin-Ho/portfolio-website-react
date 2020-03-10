@@ -7,12 +7,49 @@ export default function Contact() {
 		message: '',
 	});
 
+	const [feedback, setFeedback] = useState('');
+
 	const handleChange = e =>
 		setMessage({ ...message, [e.target.name]: e.target.value });
+
+	const sendFeedback = (
+		templateId,
+		fromName,
+		fromEmail,
+		message,
+		toEmail,
+		user,
+	) => {
+		window.emailjs
+			.send(
+				'gmail',
+				templateId,
+				{ fromName, fromEmail, message, toEmail },
+				user,
+			)
+			.then(res => {
+				// console.log(res);
+				setFeedback('Message sent!');
+				setMessage({ name: '', email: '', message: '' });
+			})
+			.catch(err => {
+				console.log('Failed to send message. Error: ', err);
+				setFeedback('Sorry, message failed to send');
+			});
+	};
 
 	const handleSubmit = e => {
 		e.preventDefault();
 		console.log(message);
+
+		sendFeedback(
+			process.env.REACT_APP_EMAILJS_TEMPLATEID,
+			message.name,
+			message.email,
+			message.message,
+			process.env.REACT_APP_EMAILJS_RECEIVER,
+			process.env.REACT_APP_EMAILJS_USERID,
+		);
 	};
 
 	return (
@@ -45,7 +82,10 @@ export default function Contact() {
 						value={message.message}
 						onChange={handleChange}
 					/>
-					<button onClick={handleSubmit}>Send Message</button>
+					<div className='contact-button-row'>
+						<button onClick={handleSubmit}>Send Message</button>
+						<div className='message-feedback'>{feedback}</div>
+					</div>
 				</form>
 			</section>
 		</div>
