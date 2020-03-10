@@ -140,7 +140,7 @@ a {
 	overflow: auto;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 425px) {
 	.page-container {
 		justify-content: flex-start;
 		padding-top: 2rem;
