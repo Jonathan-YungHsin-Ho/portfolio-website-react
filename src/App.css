@@ -138,6 +138,7 @@ a {
 	align-items: center;
 	height: 80vh;
 	overflow: auto;
+	border: 1px solid green;
 }
 
 @media screen and (max-width: 380px) {
