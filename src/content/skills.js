@@ -37,15 +37,15 @@ export const skillsFrontEnd = [
 		],
 	},
 	{
-		category: 'Version Control',
-		skills: [{ icon: 'git', skill: 'Git' }],
-	},
-	{
 		category: 'Deployment',
 		skills: [
 			{ svg: 'netlify', skill: 'Netlify' },
 			{ svg: 'zeit', skill: 'Zeit' },
 		],
+	},
+	{
+		category: 'Version Control',
+		skills: [{ icon: 'git', skill: 'Git' }],
 	},
 	{
 		category: 'Testing',
@@ -81,15 +81,15 @@ export const skillsBackEnd = [
 		],
 	},
 	{
+		category: 'Deployment',
+		skills: [{ svg: 'heroku', skill: 'Heroku' }],
+	},
+	{
 		category: 'Testing',
 		skills: [
 			{ svg: 'jest', skill: 'Jest' },
 			{ skill: 'React-Testing-Library' },
 			{ icon: 'node-js', skill: 'SuperTest' },
 		],
-	},
-	{
-		category: 'Deployment',
-		skills: [{ svg: 'heroku', skill: 'Heroku' }],
 	},
 ];
