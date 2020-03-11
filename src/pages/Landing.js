@@ -9,7 +9,7 @@ export default function Landing() {
 		<div className='page-container'>
 			<div className='landing-wrapper'>
 				<section className='landing-page'>
-					<div className='landing-image'></div>
+					{/* <div className='landing-image'></div> */}
 					<div className='landing-text'>
 						<h2>Hello, I'm Jonathan.</h2>
 						<p>
@@ -29,8 +29,9 @@ export default function Landing() {
 				<button
 					onClick={() => history.push('/projects')}
 					className='landing-button'>
-					Click here to view recent projects
+					View recent projects
 				</button>
+				<div className='landing-line'> </div>
 				<About />
 			</div>
 		</div>
