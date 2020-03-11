@@ -55,43 +55,45 @@ export default function Contact() {
 
 	return (
 		<div className='page-container'>
-			<section className='contact-page'>
-				<h2>Get In Touch</h2>
-				<p>
-					Feel free to reach out if you'd like to discuss collaboration or other
-					opportunities.
-				</p>
-				<form>
-					<input
-						type='text'
-						name='name'
-						placeholder='Name'
-						value={message.name}
-						onChange={handleChange}
-					/>
-					<input
-						type='text'
-						name='email'
-						placeholder='Email'
-						value={message.email}
-						onChange={handleChange}
-					/>
-					<textarea
-						name='message'
-						placeholder='Message'
-						rows='10'
-						value={message.message}
-						onChange={handleChange}
-					/>
-					<div className='contact-button-row'>
-						<button onClick={handleSubmit}>Send Message</button>
-						<div className='message-feedback'>
-							<span style={{ color: 'green' }}>{feedback}</span>
-							<span style={{ color: 'red' }}>{error}</span>
+			<div className='panel-centered'>
+				<section className='contact-page'>
+					<h2>Get In Touch</h2>
+					<p>
+						Feel free to reach out if you'd like to discuss collaboration or
+						other opportunities.
+					</p>
+					<form>
+						<input
+							type='text'
+							name='name'
+							placeholder='Name'
+							value={message.name}
+							onChange={handleChange}
+						/>
+						<input
+							type='text'
+							name='email'
+							placeholder='Email'
+							value={message.email}
+							onChange={handleChange}
+						/>
+						<textarea
+							name='message'
+							placeholder='Message'
+							rows='10'
+							value={message.message}
+							onChange={handleChange}
+						/>
+						<div className='contact-button-row'>
+							<button onClick={handleSubmit}>Send Message</button>
+							<div className='message-feedback'>
+								<span style={{ color: 'green' }}>{feedback}</span>
+								<span style={{ color: 'red' }}>{error}</span>
+							</div>
 						</div>
-					</div>
-				</form>
-			</section>
+					</form>
+				</section>
+			</div>
 		</div>
 	);
 }

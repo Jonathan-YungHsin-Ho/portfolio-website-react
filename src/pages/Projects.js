@@ -27,17 +27,19 @@ export default function Projects() {
 
 	return (
 		<div className='page-container'>
-			<section className='projects-page'>
-				{/* <h2>Projects</h2> */}
-				<Project project={project} />
-				<Thumbnails
-					projects={projects}
-					handleSelect={handleSelect}
-					handlePrev={handlePrev}
-					handleNext={handleNext}
-					num={project.number}
-				/>
-			</section>
+			<div className='panel-centered'>
+				<section className='projects-page'>
+					{/* <h2>Projects</h2> */}
+					<Project project={project} />
+					<Thumbnails
+						projects={projects}
+						handleSelect={handleSelect}
+						handlePrev={handlePrev}
+						handleNext={handleNext}
+						num={project.number}
+					/>
+				</section>
+			</div>
 		</div>
 	);
 }
