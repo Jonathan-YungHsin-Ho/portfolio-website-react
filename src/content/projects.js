@@ -1,5 +1,6 @@
 export const projects = [
 	{
+		number: 1,
 		image: 'qualityhub.png',
 		thumbnail: '#096dd9',
 		iconColor: 'white',
@@ -48,9 +49,10 @@ export const projects = [
 		],
 	},
 	{
+		number: 2,
 		image: 'jambdatreasurehunt.png',
-		thumbnail: '#e0ffff',
-		'thumbnail-border': '#14121f',
+		thumbnail: '#7bb369',
+		// 'thumbnail-border': '#14121f',
 		iconColor: '#121212',
 		fields: {
 			Project: 'JAMbda Treasure Hunt',
@@ -91,6 +93,7 @@ export const projects = [
 		],
 	},
 	{
+		number: 3,
 		image: 'lambdalegend2.png',
 		thumbnail: '#bb1333',
 		iconColor: 'white',
@@ -130,8 +133,9 @@ export const projects = [
 		],
 	},
 	{
+		number: 4,
 		image: 'icnst.png',
-		thumbnail: '#8ac64b',
+		thumbnail: '#83c341',
 		iconColor: '#121212',
 		fields: {
 			Project: 'International Child Nutrition Status Tracking',
@@ -169,6 +173,7 @@ export const projects = [
 		],
 	},
 	{
+		number: 5,
 		image: 'rideforlife.png',
 		thumbnail: '#536d3e',
 		iconColor: 'white',
@@ -205,12 +210,14 @@ export const projects = [
 		],
 	},
 	{
+		number: 6,
 		image: 'createadventure.png',
 		thumbnail: '#ff0000',
 		iconColor: '#121212',
 		fields: {
 			Project: 'Create Your Own Adventure',
-			Award: 'Best Overall for Lambda Winter 2020 30-Hour Hackathon',
+			Award:
+				'Best Overall for Lambda Winter 2020 30-Hour Hackathon (out of 30 submissions)',
 			Role: 'Front-End Developer',
 			Description:
 				'App platform for collaboratively creating interactive stories',
@@ -240,9 +247,10 @@ export const projects = [
 		],
 	},
 	{
+		number: 7,
 		image: 'githired.png',
-		thumbnail: '#f0f8ff',
-		'thumbnail-border': '#14121f',
+		thumbnail: 'silver',
+		// 'thumbnail-border': '#14121f',
 		iconColor: '#121212',
 		fields: {
 			Project: 'GitHired',
@@ -262,6 +270,7 @@ export const projects = [
 		],
 	},
 	{
+		number: 8,
 		image: 'brewery.png',
 		thumbnail: '#ffb900',
 		iconColor: '#121212',

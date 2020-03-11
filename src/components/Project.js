@@ -52,10 +52,9 @@ export default function Project({ project }) {
 					</div>
 				</div>
 				<div className='project-links'>
-					{project.links &&
-						project.links.map(link => (
-							<ProjectLink key={link.url} link={link} />
-						))}
+					{project.links?.map(link => (
+						<ProjectLink key={link.url} link={link} />
+					))}
 				</div>
 			</div>
 		</div>

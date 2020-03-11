@@ -5,14 +5,24 @@ import { projects } from '../content/projects';
 
 export default function Projects() {
 	const [project, setProject] = useState(
-		projects.find(
-			project => project.fields['Project'] === 'QualityHub + InterviewQ',
-		),
+		projects.find(project => project.number === 1),
 	);
 
-	const handleSelect = name =>
+	const handleSelect = num =>
+		setProject(projects.filter(proj => proj.number === num)[0]);
+
+	const handlePrev = () =>
 		setProject(
-			projects.filter(project => project.fields['Project'] === name)[0],
+			projects.filter(
+				proj => proj.number === (project.number === 1 ? 8 : project.number - 1),
+			)[0],
+		);
+
+	const handleNext = () =>
+		setProject(
+			projects.filter(
+				proj => proj.number === (project.number === 8 ? 1 : project.number + 1),
+			)[0],
 		);
 
 	return (
@@ -20,7 +30,13 @@ export default function Projects() {
 			<section className='projects-page'>
 				{/* <h2>Projects</h2> */}
 				<Project project={project} />
-				<Thumbnails projects={projects} handleSelect={handleSelect} />
+				<Thumbnails
+					projects={projects}
+					handleSelect={handleSelect}
+					handlePrev={handlePrev}
+					handleNext={handleNext}
+					num={project.number}
+				/>
 			</section>
 		</div>
 	);
