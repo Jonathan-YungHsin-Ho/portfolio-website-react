@@ -861,6 +861,10 @@ a {
 	color: var(--light-color);
 } */
 
+.dark-mode .landing-line {
+	border: 1px solid var(--light-color);
+}
+
 .dark-mode .svg-icon:hover {
 	color: var(--hover-color);
 }
