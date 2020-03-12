@@ -217,7 +217,7 @@ export const projects = [
 		fields: {
 			Project: 'Create Your Own Adventure',
 			Award:
-				'Best Overall for Lambda Winter 2020 30-Hour Hackathon (out of 30 submissions)',
+				'Best Overall out of 30 submissions for Lambda Winter 2020 30-Hour Hackathon (estimated 150-200 participants working on 30+ projects)',
 			Role: 'Front-End Developer',
 			Description:
 				'App platform for collaboratively creating interactive stories',
