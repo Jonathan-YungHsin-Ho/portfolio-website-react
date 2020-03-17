@@ -10,7 +10,7 @@ export const projects = [
 			Description:
 				'Gig economy hub app connecting job seekers with career coaches in a variety of quality assessment areas',
 			Team:
-				'9-person cross-functional team with two UX Designers and six other Full-Stack Developers',
+				'9-person remote cross-functional team with two UX Designers and six other Full-Stack Developers, communicating via Slack and Zoom',
 		},
 		responsibilities: [
 			'Iterated features for all aspects of project',
@@ -60,7 +60,7 @@ export const projects = [
 			Description:
 				'Multi-User Dungeon RPG where players explore an island maze and compete to solve puzzles, applying computer science principles including: Algorithms and Data Structures, Blockchain, Graph Theory, and Computer Architecture',
 			Team:
-				'3-person cross-functional team with one Django Back-End Developer/Front-End Developer and one Data Scientist',
+				'3-person remote cross-functional team with one Django Back-End Developer/Front-End Developer and one Data Scientist, communicating via Slack and Zoom',
 		},
 		responsibilities: [
 			'Developed React web app interacting with game server API and back-end Django database',
@@ -103,7 +103,7 @@ export const projects = [
 			Description:
 				'Multi-User Dungeon RPG where players collect questions preparing them for technical interviews',
 			Team:
-				'4-person cross-functional team with two Back-End Developers and one other Front-End Developer',
+				'4-person remote cross-functional team with two Back-End Developers and one other Front-End Developer, communicating via Slack and Zoom',
 		},
 		responsibilities: [
 			'Developed React web app interacting with Django back-end game server',
@@ -143,7 +143,7 @@ export const projects = [
 			Description:
 				'App tracking and organizing data for global child malnutrition nonprofits',
 			Team:
-				'4-person cross-functional team with one Web UI Developer and two other Front-End Developers',
+				'4-person remote cross-functional team with one Web UI Developer and two other Front-End Developers, communicating via Slack and Zoom',
 		},
 		stack: {
 			'Front-End Stack':
@@ -183,7 +183,7 @@ export const projects = [
 			Description:
 				'App connecting pregnant Uganda women with nearest motorcycle ambulances for health facility access',
 			'Team Role':
-				'5-person cross-functional team with two Web UI Developers and two Front-End Developers',
+				'5-person remote cross-functional team with two Web UI Developers and two Front-End Developers, communicating via Slack and Zoom',
 		},
 		responsibilities: [
 			'Built a Web API with functional endpoints in coordination with the front-end team',
