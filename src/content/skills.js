@@ -88,7 +88,6 @@ export const skillsBackEnd = [
 		category: 'Testing',
 		skills: [
 			{ svg: 'jest', skill: 'Jest' },
-			{ skill: 'React-Testing-Library' },
 			{ icon: 'node-js', skill: 'SuperTest' },
 		],
 	},
