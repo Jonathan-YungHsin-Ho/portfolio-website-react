@@ -43,14 +43,16 @@ export default function Contact() {
 		e.preventDefault();
 		// console.log(message);
 
-		sendFeedback(
-			process.env.REACT_APP_EMAILJS_TEMPLATEID,
-			message.name,
-			message.email,
-			message.message,
-			process.env.REACT_APP_EMAILJS_RECEIVER,
-			process.env.REACT_APP_EMAILJS_USERID,
-		);
+		console.log('test');
+
+		// sendFeedback(
+		// 	process.env.REACT_APP_EMAILJS_TEMPLATEID,
+		// 	message.name,
+		// 	message.email,
+		// 	message.message,
+		// 	process.env.REACT_APP_EMAILJS_RECEIVER,
+		// 	process.env.REACT_APP_EMAILJS_USERID,
+		// );
 	};
 
 	return (
@@ -62,7 +64,7 @@ export default function Contact() {
 						Feel free to reach out if you'd like to discuss collaboration or
 						other opportunities.
 					</p>
-					<form>
+					<form onSubmit={handleSubmit}>
 						<input
 							type='text'
 							name='name'
@@ -85,7 +87,13 @@ export default function Contact() {
 							onChange={handleChange}
 						/>
 						<div className='contact-button-row'>
-							<button onClick={handleSubmit}>Send Message</button>
+							{message.name !== '' &&
+							message.email !== '' &&
+							message.message !== '' ? (
+								<button>Send Message</button>
+							) : (
+								<button disabled>Send Message</button>
+							)}
 							<div className='message-feedback'>
 								<span style={{ color: 'green' }}>{feedback}</span>
 								<span style={{ color: 'red' }}>{error}</span>

@@ -107,7 +107,11 @@ button {
 	cursor: pointer;
 }
 
-button:hover {
+button:disabled {
+	cursor: not-allowed;
+}
+
+button:hover:enabled {
 	background-color: var(--hover-color);
 	/* background-color: var(--dark-color); */
 	color: var(--light-color);

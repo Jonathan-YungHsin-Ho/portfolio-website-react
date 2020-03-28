@@ -222,7 +222,7 @@ export const projects = [
 			Description:
 				'App platform for collaboratively creating interactive stories',
 			Team:
-				'8-person cross-functional team with three Back-End Developers and four other Front-End Developers',
+				'8-person web development team with three Back-End Developers and four other Front-End Developers',
 		},
 		responsibilities: [
 			'Designed and built front-end team page to resemble classic book covers',
