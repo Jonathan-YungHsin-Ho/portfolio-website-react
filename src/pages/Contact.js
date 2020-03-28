@@ -43,16 +43,14 @@ export default function Contact() {
 		e.preventDefault();
 		// console.log(message);
 
-		console.log('test');
-
-		// sendFeedback(
-		// 	process.env.REACT_APP_EMAILJS_TEMPLATEID,
-		// 	message.name,
-		// 	message.email,
-		// 	message.message,
-		// 	process.env.REACT_APP_EMAILJS_RECEIVER,
-		// 	process.env.REACT_APP_EMAILJS_USERID,
-		// );
+		sendFeedback(
+			process.env.REACT_APP_EMAILJS_TEMPLATEID,
+			message.name,
+			message.email,
+			message.message,
+			process.env.REACT_APP_EMAILJS_RECEIVER,
+			process.env.REACT_APP_EMAILJS_USERID,
+		);
 	};
 
 	return (
