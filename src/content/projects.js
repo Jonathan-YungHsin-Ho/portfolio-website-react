@@ -281,7 +281,7 @@ export const projects = [
 			Type: 'Personal project; designed and built ReactJS app',
 			'Front-End Stack': 'ReactJS | React Redux | React Hooks | axios | thunk',
 		},
-		site: 'https://findabrewery.now.sh/',
+		site: 'https://findabrewery.netlify.com/',
 		links: [
 			{
 				icon: ['fab', 'github'],
