@@ -259,7 +259,7 @@ export const projects = [
 			Type: 'Personal project; designed and built ReactJS app',
 			'Front-End Stack': 'ReactJS | React Redux | React Hooks | axios | thunk',
 		},
-		site: 'https://githired.now.sh/',
+		site: 'https://git-hired.netlify.com/',
 		links: [
 			{
 				icon: ['fab', 'github'],
@@ -286,8 +286,7 @@ export const projects = [
 			{
 				icon: ['fab', 'github'],
 				text: 'Code',
-				url:
-					'https://github.com/Jonathan-YungHsin-Ho/open-brewery-app/tree/master/open-brewery',
+				url: 'https://github.com/Jonathan-YungHsin-Ho/open-brewery-app',
 			},
 		],
 	},
