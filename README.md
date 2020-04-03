@@ -1,3 +1,30 @@
+# Portfolio Site: Jonathan Yung-Hsin Ho
+
+You can find the deployed project at [www.jonathan-ho.dev/](https://www.jonathan-ho.dev/).
+
+### Tech Stack
+
+- React
+- React Router
+- Context API
+- Font Awesome
+
+## Installation
+
+Clone this repo, then run `yarn` then `yarn start`.
+
+### Environment Variables
+
+```
+REACT_APP_EMAILJS_USERID
+REACT_APP_EMAILJS_TEMPLATEID
+REACT_APP_EMAILJS_RECEIVER
+```
+
+## Contributors
+
+- [Jonathan Ho](https://github.com/Jonathan-YungHsin-Ho)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
