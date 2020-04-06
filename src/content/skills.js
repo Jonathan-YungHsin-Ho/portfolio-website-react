@@ -15,6 +15,7 @@ export const skillsFrontEnd = [
 			{ icon: 'react', skill: 'Context API' },
 			{ svg: 'redux', skill: 'Redux' },
 			{ svg: 'apollo', skill: 'Apollo Client' },
+			{ icon: 'vuejs', skill: 'Vue.js' },
 		],
 	},
 	{
