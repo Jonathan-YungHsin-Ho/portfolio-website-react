@@ -10,12 +10,13 @@ export const skillsFrontEnd = [
 	{
 		category: 'Libraries/Frameworks',
 		skills: [
-			{ icon: 'react', skill: 'ReactJS' },
-			{ icon: 'react', skill: 'React Hooks' },
-			{ icon: 'react', skill: 'Context API' },
+			{ icon: 'react', skill: 'ReactJS (Hooks, Context API)' },
+			// { icon: 'react', skill: 'React Hooks' },
+			// { icon: 'react', skill: 'Context API' },
 			{ svg: 'redux', skill: 'Redux' },
 			{ svg: 'apollo', skill: 'Apollo Client' },
-			{ icon: 'vuejs', skill: 'Vue.js' },
+			{ icon: 'vuejs', skill: 'Vue.js (Vue Router, Vuex)' },
+			// { icon: 'angular', skill: 'Angular' },
 		],
 	},
 	{
@@ -42,6 +43,7 @@ export const skillsFrontEnd = [
 		skills: [
 			{ svg: 'netlify', skill: 'Netlify' },
 			{ svg: 'zeit', skill: 'Zeit' },
+			// { icon: 'aws', skill: 'Elastic Beanstalk' },
 		],
 	},
 	{
@@ -61,23 +63,24 @@ export const skillsBackEnd = [
 	{
 		category: 'Fundamentals',
 		skills: [
+			{ icon: 'node-js', skill: 'Node.js' },
+			{ icon: 'python', skill: 'Python' },
 			{ skill: 'REST' },
 			{ svg: 'sql', skill: 'SQL' },
 			{ svg: 'graphql', skill: 'GraphQL' },
-			{ icon: 'python', skill: 'Python' },
+			{ icon: 'aws', skill: 'DynamoDB' },
 		],
 	},
 	{
 		category: 'Frameworks',
 		skills: [
-			{ icon: 'node-js', skill: 'Node.js' },
 			{ icon: 'node-js', skill: 'Express' },
 			{ svg: 'knex', skill: 'Knex' },
 			{ svg: 'graphql', skill: 'GraphQL-Yoga' },
-			{ svg: 'apollo', skill: 'Apollo Server' },
+			{ svg: 'apollo', skill: 'Apollo Server (Gateway, Federation)' },
 			{ svg: 'prisma', skill: 'Prisma' },
-			{ svg: 'apollo', skill: 'Apollo Gateway' },
-			{ svg: 'apollo', skill: 'Apollo Federation' },
+			// { svg: 'apollo', skill: 'Apollo Gateway' },
+			// { svg: 'apollo', skill: 'Apollo Federation' },
 			{ svg: 'django', skill: 'Django' },
 		],
 	},
