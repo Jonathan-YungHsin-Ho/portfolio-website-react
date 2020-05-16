@@ -28,7 +28,11 @@ export const skillsFrontEnd = [
 	},
 	{
 		category: 'Styling Libraries',
-		skills: [{ skill: 'Styled-Components' }, { skill: 'Semantic UI' }],
+		skills: [
+			{ skill: 'Styled-Components' },
+			{ skill: 'Semantic UI' },
+			{ skill: 'Material UI' },
+		],
 	},
 	{
 		category: 'API Calls',
